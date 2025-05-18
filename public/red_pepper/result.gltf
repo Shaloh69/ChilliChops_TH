@@ -1,0 +1,253 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1680,
+            "type": "VEC3",
+            "max": [
+                0.012857822701334954,
+                0.04141853749752045,
+                0.025419313460588456
+            ],
+            "min": [
+                -0.012860913760960102,
+                -0.06899091601371765,
+                -0.018562372773885728
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1680,
+            "type": "VEC3",
+            "max": [
+                0.9243875741958618,
+                0.9843056201934815,
+                0.9741902351379395
+            ],
+            "min": [
+                -0.923634946346283,
+                -0.9398380517959595,
+                -0.9237022995948792
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1680,
+            "type": "SCALAR",
+            "max": [
+                1679
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 744,
+            "type": "VEC3",
+            "max": [
+                0.010520009323954583,
+                0.04878618195652962,
+                0.039089132100343707
+            ],
+            "min": [
+                -0.0104777617380023,
+                0.027059361338615419,
+                0.011473290622234345
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 744,
+            "type": "VEC3",
+            "max": [
+                0.9244254231452942,
+                0.9946577548980713,
+                0.961983323097229
+            ],
+            "min": [
+                -0.923905611038208,
+                -0.9751136302947998,
+                -0.9320894479751587
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 744,
+            "type": "SCALAR",
+            "max": [
+                743
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 67872,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 20160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 20160,
+            "byteLength": 20160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 40320,
+            "byteLength": 6720,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 47040,
+            "byteLength": 8928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 55968,
+            "byteLength": 8928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 64896,
+            "byteLength": 2976,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Red",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4119339883327484,
+                    0.006419000215828419,
+                    0.0029410000424832107,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6932139992713928
+            }
+        },
+        {
+            "name": "Green",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.00355600006878376,
+                    0.04624199867248535,
+                    0.009083000011742115,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6932139992713928
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "RedPepper",
+            "primitives": [
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                },
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "RedPepper",
+            "matrix": [
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.000016292067812173629,
+                -100.0,
+                0.0,
+                0.0,
+                100.0,
+                -0.000016292067812173629,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "UserProperties": "",
+                "IsNull": false,
+                "DefaultAttributeIndex": 0,
+                "InheritType": 1
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
